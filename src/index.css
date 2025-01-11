@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fc;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 20px;
+}
+
+.data-table__actions-column {
+    position: sticky;
+    right: 0;
+    background-color: #fff;
+    z-index: 1;
+}

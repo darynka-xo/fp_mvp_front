@@ -24,7 +24,12 @@ const TableView = ({ endpoint }) => {
         sortable: true,
     }));
 
-    return <DataTable columns={columns} data={data} />;
+    return (
+        <div className="container">
+            <h1 className="text-center mt-4">Table View</h1>
+            <DataTable columns={columns} data={data} pagination />
+        </div>
+    );
 };
 
 export default TableView;

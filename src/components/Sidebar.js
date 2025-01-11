@@ -16,9 +16,9 @@ const Sidebar = () => (
             </a>
         </li>
         <li className="nav-item">
-            <a className="nav-link" href="/tables">
-                <i className="fas fa-fw fa-table"></i>
-                <span>Tables</span>
+            <a className="nav-link" href="/catalog">
+                <i className="fas fa-fw fa-book"></i>
+                <span>Catalog</span>
             </a>
         </li>
     </ul>
